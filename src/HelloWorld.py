@@ -1,2 +1,1 @@
-print("Hello World")
-print("Another test")
+print("Hello everybody!!")
