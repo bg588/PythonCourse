@@ -21,3 +21,12 @@ for blah in mylistofnumbers:
     if blah > 2:
         print("Number is 3 : ")
         print(blah)
+
+# None is similar to null
+x = None
+if x is None:
+    print("Empty")
+x = 2
+if x is not None:
+    print("Not empty")
+print(x)
