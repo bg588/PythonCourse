@@ -17,9 +17,17 @@ def countdown():
         n -= 1
     print('Blast off!')
 
+def givemeab():
+    # note lack of type - not like java
+    return "B"
+
+print("Give me a B!", givemeab())
 
 print('Hello, running some functions')
 function()
 run10times()
 print('Launch a rocket')
 countdown()
+print('Stopping here')
+exit()
+print('This will not run')
