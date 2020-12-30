@@ -1,4 +1,6 @@
+# Remember, strings in Python are immutable. Can't do fruit[0]='B', will cause program to crash
 fruit = "banana"
+
 
 for letter in fruit:
     print(letter)
@@ -49,3 +51,7 @@ print(host)
 
 # advantage of python 3 is strings are in unicode (ie can represent all character sets, languages etc)
 # so don't need to mess arnd with conversion. Python 2 can be more problematic as it isn't as easy
+
+# use starts with to check start
+if data.startswith('ben'):
+    print('Starts with ben')
