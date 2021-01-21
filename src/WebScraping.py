@@ -1,5 +1,6 @@
 # to import packages to python env, in cmd prompt pip install <package name>
 
+
 import urllib.request, urllib.parse, urllib.error
 from bs4 import BeautifulSoup
 import ssl
